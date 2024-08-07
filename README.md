@@ -6,13 +6,12 @@
 ## Device specification
 Basic   | Spec Sheet
 -------:|:------------------------
-CPU     | Mediatek  Helio G85 
-GPU     | Mali-G52 MC2 1.0 GHz
-Memory  | 4GB
-Android Version | 12
-Storage | 128GB
+CPU     | Mediatek  Helio G88 
+Memory  | 4/8GB
+Android Version | 13 HIOS 12.6.0
+Storage | 128/256GB
 Battery | Li-polymer 5000 mAh
-Display | 6.58, 2408x1080, 60 Hz
+Display | 6.78 IPS, 2460x1080, 90 Hz
 Main camera | 50+2+0.08 MP
 Front-camera | 32 MP, Built-in flash
 Bluetooth | 5.0 
