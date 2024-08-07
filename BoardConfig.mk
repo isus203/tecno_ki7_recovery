@@ -21,7 +21,7 @@ ALLOW_MISSING_DEPENDENCIES := true
 
 DEVICE_PATH := device/tecno/KI7
 
-Architecture
+# Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := arm64-v8a
