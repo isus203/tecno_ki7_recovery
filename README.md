@@ -14,5 +14,5 @@ Battery | Li-polymer 5000 mAh
 Display | 6.78 IPS, 2460x1080, 90 Hz
 Main camera | 50+2+0.08 MP
 Front-camera | 32 MP, Built-in flash
-Bluetooth | 5.0 
-Wi-Fi | 802.11 a/b/g/n  2.4 GHz, 5 GHz
+Bluetooth | 5.3 
+Wi-Fi | 802.11 a/b/g/n/ac  2.4 GHz, 5 GHz
