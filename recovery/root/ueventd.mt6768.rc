@@ -137,6 +137,23 @@
 # Change ION driver permission
 /dev/ion                  0666   system     graphics
 
+# Change DMA_HEAP deice permission
+#     refs: /system/core/rootdir/uevent.rc
+#           /dev/dma_heap/system      0444   system     system
+/dev/dma_heap/mtk_mm                        0444   system     system
+/dev/dma_heap/mtk_mm-uncached               0444   system     system
+/dev/dma_heap/mtk_svp_page-uncached                 0444   system     system
+/dev/dma_heap/mtk_prot_page-uncached                0444   system     system
+/dev/dma_heap/mtk_svp_region                        0444   system     system
+/dev/dma_heap/mtk_svp_region-aligned                0444   system     system
+/dev/dma_heap/mtk_prot_region                       0444   system     system
+/dev/dma_heap/mtk_prot_region-aligned               0444   system     system
+/dev/dma_heap/mtk_2d_fr_region                      0444   system     system
+/dev/dma_heap/mtk_2d_fr_region-aligned              0444   system     system
+/dev/dma_heap/mtk_wfd_region                        0444   system     system
+/dev/dma_heap/mtk_wfd_region-aligned                0444   system     system
+/dev/dma_heap/mtk_wfd_page-uncached                 0444   system     system
+
 #touch
 /dev/touch                0660   root       system
 /dev/hotknot              0660   root       system
