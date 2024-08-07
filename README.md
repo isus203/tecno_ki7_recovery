@@ -17,16 +17,3 @@ Main camera | 50+2+0.08 MP
 Front-camera | 32 MP, Built-in flash
 Bluetooth | 5.0 
 Wi-Fi | 802.11 a/b/g/n  2.4 GHz, 5 GHz
-
-## Working
-- [X] Mount system, product, system_ext, vendor, userdata
-- [X] Not known
-- [ ] 
-## Problems
-- [X] Not known
-
-## Credits
-[@yurxxl](https://4pda.to/forum/index.php?showuser=8545777), [@azwhikaru](https://github.com/azwhikaru)
-
-## I thank you very much for your help 
-[@lopestom](https://github.com/lopestom)
