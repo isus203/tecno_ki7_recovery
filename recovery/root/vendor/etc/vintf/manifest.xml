@@ -1,7 +1,7 @@
 <!--
     Input:
         manifest_isphal.xml
-        vendor.fptool.fingerprint-service.xml
+        manifest_silead.xml
         vendor.transsion.hardware.hyperion.hap_device.xml
         manifest_tranlog.xml
         manifest_tranlogconfig.xml
@@ -293,14 +293,14 @@
         <fqname>@2.0::IThermal/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.fptool.fingerprint</name>
+        <name>vendor.focaltech.hardware.biometrics.fingerprint</name>
         <transport>hwbinder</transport>
-        <version>2.0</version>
+        <version>1.0</version>
         <interface>
-            <name>IFptoolFingerprint</name>
+            <name>IFocalFingerprint</name>
             <instance>default</instance>
         </interface>
-        <fqname>@2.0::IFptoolFingerprint/default</fqname>
+        <fqname>@1.0::IFocalFingerprint/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.mediatek.hardware.aee</name>
@@ -580,6 +580,16 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::INxpNfcLegacy/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.silead.hardware.fingerprintext</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ISileadFingerprint</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::ISileadFingerprint/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.transsion.hardware.hyperion.hap</name>
