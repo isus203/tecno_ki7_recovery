@@ -17,10 +17,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_KH7n.mk
+     $(LOCAL_DIR)/twrp_KI7.mk
      
 
 COMMON_LUNCH_CHOICES := \
-    twrp_KH7n-user \
-    twrp_KH7n-userdebug \
-    twrp_KH7n-eng
+    twrp_KI7-user \
+    twrp_KI7-userdebug \
+    twrp_KI7-eng
