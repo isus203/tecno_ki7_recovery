@@ -5,7 +5,7 @@
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
 # 1 "vendor/mediatek/proprietary/hardware/fstab/mt6768/fstab.in.mt6768" 2
-# 160 "vendor/mediatek/proprietary/hardware/fstab/mt6768/fstab.in.mt6768"
+# 171 "vendor/mediatek/proprietary/hardware/fstab/mt6768/fstab.in.mt6768"
 system /system ext4 ro wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
 
 vendor /vendor ext4 ro wait,slotselect,avb,logical,first_stage_mount
@@ -17,10 +17,10 @@ product /product ext4 ro wait,slotselect,avb,logical,first_stage_mount
 
 
 system_ext /system_ext ext4 ro wait,slotselect,avb,logical,first_stage_mount
-# 179 "vendor/mediatek/proprietary/hardware/fstab/mt6768/fstab.in.mt6768"
+# 190 "vendor/mediatek/proprietary/hardware/fstab/mt6768/fstab.in.mt6768"
 /dev/block/by-name/md_udc /metadata ext4 noatime,nosuid,nodev,discard wait,check,formattable,first_stage_mount
 
-/dev/block/by-name/userdata /data f2fs noatime,nosuid,nodev,discard,noflush_merge,reserve_root=134217,resgid=1065,inlinecrypt,tran_gc wait,check,formattable,quota,latemount,resize,reservedsize=128m,checkpoint=fs,fileencryption=aes-256-xts:aes-256-cts:v2,keydirectory=/metadata/vold/metadata_encryption,
+/dev/block/by-name/userdata /data f2fs noatime,nosuid,nodev,discard,noflush_merge,reserve_root=134217,resgid=1065,inlinecrypt,tran_gc wait,check,formattable,quota,latemount,resize,,reservedsize=128m,checkpoint=fs,fileencryption=aes-256-xts:aes-256-cts:v2,keydirectory=/metadata/vold/metadata_encryption,
 
 
 
@@ -41,7 +41,7 @@ system_ext /system_ext ext4 ro wait,slotselect,avb,logical,first_stage_mount
 
 
 
-/devices/platform/11240000.mmc* auto auto defaults voldmanaged=sdcard1:auto,encryptable=userdata
+/devices/platform/externdevice* auto auto defaults voldmanaged=sdcard1:auto,encryptable=userdata
 
 
 
@@ -49,6 +49,7 @@ system_ext /system_ext ext4 ro wait,slotselect,avb,logical,first_stage_mount
 
 
 /devices/platform/mt_usb* auto vfat defaults voldmanaged=usbotg:auto,encryptable=userdata
+
 
 
 
@@ -60,6 +61,7 @@ system_ext /system_ext ext4 ro wait,slotselect,avb,logical,first_stage_mount
 /dev/block/by-name/lk2 /bootloader2 emmc defaults defaults
 /dev/block/by-name/misc /misc emmc defaults defaults
 /dev/block/by-name/para /para emmc defaults defaults
+/dev/block/by-name/vendor_boot /vendor_boot emmc defaults defaults
 
 
 
