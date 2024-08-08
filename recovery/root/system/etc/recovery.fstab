@@ -1,4 +1,4 @@
-#fstab file by isus203 for Tecno Spark 10 Pro - KH7n-H6919DE-S-OP-230611V978 - kh7n_h6919
+#fstab file by isus203 for Tecno Spark 10 Pro - KI7-V7510AGHJ-T-RU-230615V2799
 
 #<mnt_point>      <device>       <type>      <mount>                               <mnt_flags and options>
 system            /system         ext4         ro            wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
