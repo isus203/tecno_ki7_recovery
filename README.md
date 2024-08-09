@@ -1,4 +1,4 @@
-# OrangeFox/TWRP device tree for TECNO SPARK 10 Pro (Ki7)
+# TWRP device tree for TECNO SPARK 10 Pro (Ki7)
 
 ## Device image
 ![ki7](https://github.com/isus203/tecno_ki7_recovery/blob/main/Device_image/tecno-spark-10-pro-foto-1.png)
