@@ -37,22 +37,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/userspace_reboot.mk)
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
-    gz \
     lk \
-    tee \
-    scp \
-    logo \
-    sspm \
-    spmfw \
-    md1img \
     preloader \
-    system \
     product \
+    system \
     system_ext \
-    vendor \
     vbmeta \
     vbmeta_system \
-    vbmeta_vendor 
+    vbmeta_vendor \
+    vendor
     
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
